@@ -1,0 +1,96 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#bg-body {
+	background-color: #344454; /*grayblue*/ 
+	color: white; 
+	height: 100%;
+	width:100%;
+}
+
+#container-large {
+	width: 100%;
+}
+
+#brand:hover,
+#brand:active {
+	background-color: #F1FAEE;
+	color: #547153;
+	border: 3px solid #547153; 
+}
+
+#navbar {
+	/*background-color: #8FB78D;*/
+	background-color: #547153; /*green*/
+}
+
+.navbar-brand {
+	height:50px; 
+	width:50px;
+	border: 3px solid white;
+	border-radius: 10px;
+	text-align: center;
+}
+
+#banner {
+	height: 100px;
+	width: 100%;
+	margin: 50px auto;
+	text-align: center;
+}
+
+#socialMedia {
+	margin: 20px auto;
+	text-align: center;
+}
+
+#socialMedia-row {
+	width: 100px;
+}
+
+#facebook-icon,
+#ig-icon,
+#twitter-icon,
+#youtube-icon {
+	color: #F1FAEE;
+}
+
+
+#facebook-icon:hover,
+#facebook-icon:active {
+	color: #3B5998;
+}
+
+#ig-icon:hover,
+#ig-icon:active {
+	color: #833AB4;
+}
+
+#twitter-icon:hover,
+#twitter-icon:active {
+	color: #1DA1F2;
+}
+
+#youtube-icon:hover,
+#youtube-icon:active {
+	color: #CC181E;
+}
+
+
+
+#footer-bar {
+	height: 60px;
+	margin-top: 50px;
+	padding-top: 20px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	background-color:#547153; /*green*/
+}
+
+.footer {
+	margin:0;
+	text-align: center;
+}

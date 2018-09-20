@@ -1,0 +1,49 @@
+.row1,
+.row2,
+.row3 {
+	height: 300px;
+	width: 100%;
+	background-color: grey; 
+
+	margin: 20px auto 0;
+
+}
+
+#colBricks,
+#colTrix,
+#colStories {
+	min-height: 300px;
+
+	margin-top:	40px;
+	border-radius: 3px solid white;
+
+	text-align: center
+}
+
+#colData1,
+#colData2,
+#colData3 {
+	min-height: 300px;
+
+	margin-top:	40px;
+	border-radius: 3px solid white;
+
+	text-align: center
+}
+
+#colBricks {
+	background-color: #5C0404; /*red*/
+}
+
+#colTrix {
+	background-color: #547153; /*green*/
+}
+
+#colStories {
+	background-color: #04243B; /*blue*/
+}
+
+hr {
+	background-color: white;
+	color: white;
+}

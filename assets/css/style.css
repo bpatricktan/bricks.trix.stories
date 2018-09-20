@@ -1,0 +1,156 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#landingPage {
+	margin: 0 auto;
+}
+
+#bg-body {
+	background-image: url("../assets/img/bg1.jpg");
+	background-color: #344454; /*grayblue */
+	color: white; 
+	height: 100%;
+	width:100%;
+}
+
+.container-fluid {
+	background-image: url("../assets/img/bg1.jpg");
+}
+
+#container-large {
+	width: 100%;
+}
+
+
+
+
+.row{
+	margin:0 auto;
+}
+
+.cols {
+	margin:0 auto;
+}
+
+#btnB:hover {
+	background-color:#5C0404; /*red*/
+}
+
+#btnT:hover {
+	background-color: #547153; /*green*/
+}
+
+#btnS:hover {
+	background-color: #04243B; /*blue*/
+}
+
+
+#txtB,
+#txtT,
+#txtS {
+	font-size: 2vw;
+	color: #778193;
+	letter-spacing: 1vw;
+	align-content: center;
+	text-align: center;
+
+}
+
+
+
+#btnB,
+#btnT,
+#btnS {
+	font-family: 'Roboto', sans-serif;
+	margin: 10vh auto ;
+	padding: 0;
+	color: #E4ECFC; /*white*/
+	/*color: white; */
+
+	background-color: #1C1C1C;
+	font-size: 30vw;
+	text-align: center;
+
+	height: 80vh;
+	width: 25vw;
+	/*border: 10px solid #E4ECFC;*/
+	border-radius: 15px;
+}
+
+
+#b-head,
+#t-head,
+#s-head {
+	content: auto 0;
+	padding: auto 0;
+}
+
+.jumbotron {
+	max-height: 900px;
+	margin-top: 50px;
+	text-align: center;
+}
+
+#bricks-head,
+#trix-head,
+#stories-head {
+	color: white;
+	font-size: 500px;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.lead {
+	text-align: center;
+	font-size: 200px;
+	color:gray;
+}
+
+
+
+
+
+/*Animations*/
+
+#b-head {
+  -webkit-animation-duration: 5s;
+  -webkit-animation-delay: 0s;
+  -webkit-animation-iteration-count: 1;
+}
+
+#t-head {
+  -webkit-animation-duration: 5s;
+  -webkit-animation-delay: 0.5s;
+  -webkit-animation-iteration-count: 1;
+}
+
+#s-head {
+  -webkit-animation-duration: 5s;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-iteration-count: 1;
+}
+
+.fadeInUp {
+  -webkit-animation-duration: 5s;
+  -webkit-animation-delay: 2s;
+  -webkit-animation-iteration-count: 1;
+}
+
+
+/*
+.animated {
+   -webkit-animation-duration: 15s;
+   animation-duration: 15s;
+   -webkit-animation-fill-mode: both;
+   animation-fill-mode: both;
+}*/
+
+
+
+
+
+
+
