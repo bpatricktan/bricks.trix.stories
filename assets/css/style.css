@@ -71,11 +71,12 @@
 	/*color: white; */
 
 	background-color: #1C1C1C;
-	font-size: 30vw;
+	font-size: 28vw;
 	text-align: center;
 
 	height: 80vh;
 	width: 25vw;
+	max-width: 100%;
 	/*border: 10px solid #E4ECFC;*/
 	border-radius: 15px;
 }
