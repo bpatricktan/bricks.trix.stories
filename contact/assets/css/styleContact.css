@@ -4,6 +4,20 @@
 	box-sizing: border-box;
 }
 
+#contact-jumbotron {
+	background-color: #141414; /*off black*/
+	height: 90vh;
+	border-radius: 0; /*to remove the round corners*/
+}
+
+#contact-landing {
+	color: #f2f2f2; /*off white*/
+	font-size: 10vw;
+	padding-top: 20vh;
+	letter-spacing: 10px;
+}
+
+
 #bg-body {
 	background-color: #344454; /*grayblue*/ 
 	color: white; 

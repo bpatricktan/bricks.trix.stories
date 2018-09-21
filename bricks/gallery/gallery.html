@@ -6,9 +6,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	
+	<link rel="stylesheet" type="text/css" href="../../assets/css/bootstrap.css">
+
 	<link rel="stylesheet" type="text/css" href="./assets/css/styleGallery.css">
 	
-	<link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.css">
 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
@@ -19,15 +20,20 @@
 
 	
 
-	<title>Bricks&middot;Tricks&middot;Stories | Gallery</title>
+	<title>Bricks&middot;Trix&middot;Stories | Gallery</title>
 
 
 </head>
 <body id="bg-body">
 
-	<header>
+	
 
-		<nav class="navbar navbar-expand-lg navbar-dark" id="navbar">
+	<section class="jumbotron mb-0" id="gallery-jumbotron">
+		<h1 class="text-center animated fadeInDown" id="gallery-landing">GALLERY</h1>
+	</section>
+
+	<div class="container-fluid px-0">
+		<nav class="navbar navbar-expand-lg navbar-dark sticky-top" id="navbar">
 
 			<a id="brand" class="navbar-brand" href="../../home/home2.html">BTS</a>
 
@@ -50,14 +56,9 @@
 			</div>
 
 		</nav>
-	</header>
 
-	<main>
 		<div class="container">
-			<div id="banner" class="mb-1 col-sm-12 col-md-12 col-lg-12">
-				<h1 class="animated fadeInDown">Gallery</h1>
-				<hr>
-			</div>
+			
 
 			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-keyboard="true" data-pause="hover">
 				<ol class="carousel-indicators">
@@ -99,13 +100,15 @@
 			<!-- Button trigger modal -->
 			<div class="row">
 
-				<div class="cols col-sm-6col-md-4 col-lg-4">
-					<img type="button" class="img-btn btn" data-toggle="modal" data-target=".bd-example-modal-lg"src="./assets/img/lego1.jpg">
+				<!-- image 1 -->
+
+				<div class="cols col-sm-6 col-md-4 col-lg-4">
+					<img type="button" class="img-btn btn" data-toggle="modal" data-target="#modalImg-1" src="./assets/img/lego1.jpg">
 
 
 					<!-- Modal -->
 
-					<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+					<div id="modalImg-1" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 						<div class="modal-dialog modal-lg">
 							<div class="modal-content">
 								<img class="gallery-img" src="./assets/img/lego1.jpg" class="gallery-img">
@@ -115,13 +118,17 @@
 					</div>
 				</div>
 
-				<div class="cols col-sm-6col-md-4 col-lg-4">
-					<img type="button" class="img-btn btn" data-toggle="modal" data-target=".bd-example-modal-lg"src="./assets/img/lego2.jpg">
+				<!-- End of image 1 -->
+
+				<!-- image 2 -->
+
+				<div class="cols col-sm-6 col-md-4 col-lg-4">
+					<img type="button" class="img-btn btn" data-toggle="modal" data-target="#modalImg-2"src="./assets/img/lego2.jpg">
 
 
 					<!-- Modal -->
 
-					<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+					<div id="modalImg-2" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 						<div class="modal-dialog modal-lg">
 							<div class="modal-content">
 								<img class="gallery-img" src="./assets/img/lego2.jpg" class="gallery-img">
@@ -131,13 +138,17 @@
 					</div>
 				</div>
 
-				<div class="cols col-sm-6col-md-4 col-lg-4">
-					<img type="button" class="img-btn btn" data-toggle="modal" data-target=".bd-example-modal-lg"src="./assets/img/lego3.jpg">
+				<!-- End of image 2 -->
+
+				<!-- image 3 -->
+
+				<div class="cols col-sm-6 col-md-4 col-lg-4">
+					<img type="button" class="img-btn btn" data-toggle="modal" data-target="#modalImg-3"src="./assets/img/lego3.jpg">
 
 
 					<!-- Modal -->
 
-					<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+					<div id="modalImg-3" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 						<div class="modal-dialog modal-lg">
 							<div class="modal-content">
 								<img class="gallery-img" src="./assets/img/lego3.jpg" class="gallery-img">
@@ -147,13 +158,17 @@
 					</div>
 				</div>
 
-				<div class="cols col-sm-6col-md-4 col-lg-4">
-					<img type="button" class="img-btn btn" data-toggle="modal" data-target=".bd-example-modal-lg"src="./assets/img/lego4.jpg">
+				<!-- End of image 3 -->
+
+				<!-- image 4 -->
+
+				<div class="cols col-sm-6 col-md-4 col-lg-4">
+					<img type="button" class="img-btn btn" data-toggle="modal" data-target="#modalImg-4"src="./assets/img/lego4.jpg">
 
 
 					<!-- Modal -->
 
-					<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+					<div id="modalImg-4" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 						<div class="modal-dialog modal-lg">
 							<div class="modal-content">
 								<img class="gallery-img" src="./assets/img/lego4.jpg" class="gallery-img">
@@ -163,13 +178,17 @@
 					</div>
 				</div>
 
-				<div class="cols col-sm-6col-md-4 col-lg-4">
-					<img type="button" class="img-btn btn" data-toggle="modal" data-target=".bd-example-modal-lg"src="./assets/img/lego5.jpg">
+				<!-- End of image 4 -->
+
+				<!-- image 5 -->
+
+				<div class="cols col-sm-6 col-md-4 col-lg-4">
+					<img type="button" class="img-btn btn" data-toggle="modal" data-target="#modalImg-5"src="./assets/img/lego5.jpg">
 
 
 					<!-- Modal -->
 
-					<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+					<div id="modalImg-5" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 						<div class="modal-dialog modal-lg">
 							<div class="modal-content">
 								<img class="gallery-img" src="./assets/img/lego5.jpg" class="gallery-img">
@@ -179,13 +198,17 @@
 					</div>
 				</div>
 
-				<div class="cols col-sm-6col-md-4 col-lg-4">
-					<img type="button" class="img-btn btn" data-toggle="modal" data-target=".bd-example-modal-lg"src="./assets/img/lego6.jpg">
+				<!-- End of image 5 -->
+
+				<!-- image 6 -->
+
+				<div class="cols col-sm-6 col-md-4 col-lg-4">
+					<img type="button" class="img-btn btn" data-toggle="modal" data-target="#modalImg-6"src="./assets/img/lego6.jpg">
 
 
 					<!-- Modal -->
 
-					<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+					<div id="modalImg-6" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 						<div class="modal-dialog modal-lg">
 							<div class="modal-content">
 								<img class="gallery-img" src="./assets/img/lego6.jpg" class="gallery-img">
@@ -195,13 +218,17 @@
 					</div>
 				</div>
 
-				<div class="cols col-sm-6col-md-4 col-lg-4">
-					<img type="button" class="img-btn btn" data-toggle="modal" data-target=".bd-example-modal-lg"src="./assets/img/lego7.jpg">
+				<!-- End of image 6 -->
+
+				<!-- image 7 -->
+
+				<div class="cols col-sm-6 col-md-4 col-lg-4">
+					<img type="button" class="img-btn btn" data-toggle="modal" data-target="#modalImg-7"src="./assets/img/lego7.jpg">
 
 
 					<!-- Modal -->
 
-					<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+					<div id="modalImg-7" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 						<div class="modal-dialog modal-lg">
 							<div class="modal-content">
 								<img class="gallery-img" src="./assets/img/lego7.jpg" class="gallery-img">
@@ -211,13 +238,17 @@
 					</div>
 				</div>
 
-				<div class="cols col-sm-6col-md-4 col-lg-4">
-					<img type="button" class="img-btn btn" data-toggle="modal" data-target=".bd-example-modal-lg"src="./assets/img/lego8.jpg">
+				<!-- End of image 7 -->
+
+				<!-- image 8 -->
+
+				<div class="cols col-sm-6 col-md-4 col-lg-4">
+					<img type="button" class="img-btn btn" data-toggle="modal" data-target="#modalImg-8"src="./assets/img/lego8.jpg">
 
 
 					<!-- Modal -->
 
-					<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+					<div id="modalImg-8" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 						<div class="modal-dialog modal-lg">
 							<div class="modal-content">
 								<img class="gallery-img" src="./assets/img/lego8.jpg" class="gallery-img">
@@ -227,13 +258,17 @@
 					</div>
 				</div>
 
-				<div class="cols col-sm-6col-md-4 col-lg-4">
-					<img type="button" class="img-btn btn" data-toggle="modal" data-target=".bd-example-modal-lg"src="./assets/img/lego9.jpg">
+				<!-- End of image 8 -->
+
+				<!-- image 9 -->
+
+				<div class="cols col-sm-6 col-md-4 col-lg-4">
+					<img type="button" class="img-btn btn" data-toggle="modal" data-target="#modalImg-9"src="./assets/img/lego9.jpg">
 
 
 					<!-- Modal -->
 
-					<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+					<div id="modalImg-9" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 						<div class="modal-dialog modal-lg">
 							<div class="modal-content">
 								<img class="gallery-img" src="./assets/img/lego9.jpg" class="gallery-img">
@@ -243,13 +278,17 @@
 					</div>
 				</div>
 
-				<div class="cols col-sm-6col-md-4 col-lg-4">
-					<img type="button" class="img-btn btn" data-toggle="modal" data-target=".bd-example-modal-lg"src="./assets/img/lego10.jpg">
+				<!-- End of image 9 -->
+
+				<!-- image 10 -->
+
+				<div class="cols col-sm-6 col-md-4 col-lg-4">
+					<img type="button" class="img-btn btn" data-toggle="modal" data-target="#modalImg-10"src="./assets/img/lego10.jpg">
 
 
 					<!-- Modal -->
 
-					<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+					<div id="modalImg-10" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 						<div class="modal-dialog modal-lg">
 							<div class="modal-content">
 								<img class="gallery-img" src="./assets/img/lego10.jpg" class="gallery-img">
@@ -259,13 +298,17 @@
 					</div>
 				</div>
 
-				<div class="cols col-sm-6col-md-4 col-lg-4">
-					<img type="button" class="img-btn btn" data-toggle="modal" data-target=".bd-example-modal-lg"src="./assets/img/storm1.jpg">
+				<!-- end of Image 10 -->
+
+				<!-- image 11 -->
+
+				<div class="cols col-sm-6 col-md-4 col-lg-4">
+					<img type="button" class="img-btn btn" data-toggle="modal" data-target="#modalImg-11"src="./assets/img/storm1.jpg">
 
 
 					<!-- Modal -->
 
-					<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+					<div id="modalImg-11" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 						<div class="modal-dialog modal-lg">
 							<div class="modal-content">
 								<img class="gallery-img" src="./assets/img/storm1.jpg" class="gallery-img">
@@ -275,13 +318,17 @@
 					</div>
 				</div>
 
-				<div class="cols col-sm-6col-md-4 col-lg-4">
-					<img type="button" class="img-btn btn" data-toggle="modal" data-target=".bd-example-modal-lg"src="./assets/img/storm2.jpg">
+				<!-- End of image 11 -->
+
+				<!-- image 12 -->
+
+				<div class="cols col-sm-6 col-md-4 col-lg-4">
+					<img type="button" class="img-btn btn" data-toggle="modal" data-target="#modalImg-12"src="./assets/img/storm2.jpg">
 
 
 					<!-- Modal -->
 
-					<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+					<div id="modalImg-12" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 						<div class="modal-dialog modal-lg">
 							<div class="modal-content">
 								<img class="gallery-img" src="./assets/img/storm2.jpg" class="gallery-img">
@@ -291,39 +338,44 @@
 					</div>
 				</div>
 
+				<!-- End of image 12 -->
+
 
 
 			</div>
 		</div>
 
-			<!-- End of Photos -->
+		<!-- End of Photos -->
 
 
 
 
-		</main>
+		
 
 		<hr>
+	</div>
 
-		<footer>
+	<footer>
 
-			<div id="footer-bar" class="footer col-sm-12 col-md-12 col-lg-12">
+		<div id="footer-bar" class="footer col-sm-12 col-md-12 col-lg-12">
 
-				<p><strong>Trix&middot;The&middot;Lunatrix | @2008</strong></p>
+			<p><strong>Trix&middot;The&middot;Lunatrix | @2008</strong></p>
 
-			</div>
+		</div>
 
-		</footer>
+	</footer>
+
+</div>
 
 
 
 
-		<script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-		<script type="text/javascript" src="../assets/js/bootstrap.js"></script>
+<script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script type="text/javascript" src="../../assets/js/bootstrap.js"></script>
 
-	</body>
-	</html>
+</body>
+</html>
 
 
 
