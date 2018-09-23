@@ -6,11 +6,11 @@
 
 #landingPage {
 	margin: 0 auto;
-	background-image: url("../assets/img/bg1.jpg")
+/*	background-image: url("../assets/img/bg1.jpg")*/
 }
 
 #bg-body {
-	background-image: url("./assets/img/bg1.jpg");
+/*	background-image: url("./assets/img/bg1.jpg");*/
 	background-color: #344454; /*grayblue */
 	color: white; 
 	height: 100%;
@@ -69,11 +69,14 @@ strong {
 }
 
 
+
+
 #txtB,
 #txtT,
 #txtS {
 	font-size: 2vw;
 	color: #778193;
+/*	padding-left: 10%;*/
 	letter-spacing: 1vw;
 	align-content: center;
 	text-align: center;
@@ -93,7 +96,7 @@ strong {
 	/*color: white; */
 
 	background-color: #1C1C1C;
-	font-size: 28vw;
+	font-size: 20vw;
 	text-align: center;
 
 	height: 80vh;

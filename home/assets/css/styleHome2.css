@@ -37,8 +37,8 @@
 #brand:hover,
 #brand:active {
 	background-color: #F1FAEE;
-	color: #04747C;
-	border: 3px solid #04747C; 
+	color: #344454;
+	border: 3px solid #344454; 
 
 
 	/*box-shadow: 3px 3px 25px #000;*/
@@ -46,7 +46,7 @@
 
 #navbar {
 
-	background-color: #04747C ; 
+	background-color: #344454 ; 
 }
 
 
@@ -165,7 +165,7 @@
 	padding-top: 20px;
 	margin-bottom: 0;
 	padding-bottom: 0;
-	background-color:#04747C;
+	background-color:#344454;
 }
 
 .footer {

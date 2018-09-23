@@ -72,6 +72,35 @@
 	text-align: center;
 }
 
+
+
+
+
+
+
+#img-about {
+	height: 250px;
+	width: 250px;
+	border: 3px solid #141414;
+	border-radius: 50%;
+}
+
+#about-body {
+	background-color: #f2f2f2;
+	color: #141414;
+}
+
+#about-content {
+	letter-spacing: 1px;
+}
+
+
+
+
+
+
+
+
 #socialMedia {
 	margin: 20px auto;
 	text-align: center;
