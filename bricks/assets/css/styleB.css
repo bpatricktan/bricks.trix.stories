@@ -2,16 +2,31 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#bg-body {
+	background-image: url("../../../assets/img/backgrounds/bg-black.jpg");
+	background-color: #344454; 
+	background-position: center; 
+	background-repeat: repeat-y; 
+	/*background-size: cover;*/
 }
 
 #bricks-jumbotron {
-	background-color: #141414; /*off black*/
+	background-image: url("../../../assets/img/backgrounds/bg-brick.jpg");
+	background-color: black; 
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover;
 	height: 90vh;
 	border-radius: 0; 
 }
 
 #bricks-landing {
 	color: #f2f2f2; /*off white*/
+	text-shadow: 5px 5px 20px gray; 
+
 	font-size: 10vw;
 	padding-top: 20vh;
 	letter-spacing: 10px;
@@ -55,6 +70,20 @@
 	margin: 50px auto;
 	text-align: center;
 }
+
+.card-deck {
+	width: 100%;
+}
+
+.card-body {
+	margin:0 auto;
+	width: 100%;
+}
+
+
+
+
+
 
 #footer-bar {
 	height: 60px;

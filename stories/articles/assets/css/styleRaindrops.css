@@ -1,0 +1,126 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+html, body {
+	height: 100%;
+}
+
+
+#bg-body {
+	background-color: #141414; 
+	color: white; 
+	min-height: 100%;
+	width:100%;
+}
+
+
+
+#brand:hover,
+#brand:active {
+	background-color: #F1FAEE;
+	color: #04243B;
+	border: 3px solid #04243B; 
+}
+
+#navbar {
+	/*background-color: #3C456A;*/
+	background-color: #04243B; /*blue*/
+}
+
+.navbar-brand {
+	height:50px; 
+	width:50px;
+	border: 3px solid white;
+	border-radius: 10px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+#raindrops-title {
+	padding-top: 15%;
+	color: #f2f2f2;
+	opacity: 0.5;
+	font-size: 5vw;
+}
+
+#raindrops-start,
+#chapter {
+	color: #2196F3;
+	text-decoration: none;
+	/*opacity: 0.5;*/
+    text-shadow: 5px 5px 15px gray;
+
+}
+
+#raindrops-start:hover {
+	color: 064579;
+}
+
+#raindrops-main {
+	min-height: 900px;
+	background-image: url("../img/raindrops.jpg");
+	background-color: black;
+	    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#chapter-select {
+	padding-top: 35%;
+	opacity: 0.7;
+	color: #f2f2f2;
+}
+
+/*#chapter-select:hover {
+opacity: 0.7;
+}
+
+#chapter-select {
+
+}*/
+
+#article-main {
+	text-indent: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer-bar {
+	height: 60px;
+	margin-top: 50px;
+	padding-top: 20px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	background-color:#04243B; /*blue*/
+}
+
+.footer {
+	margin:0;
+	text-align: center;
+}

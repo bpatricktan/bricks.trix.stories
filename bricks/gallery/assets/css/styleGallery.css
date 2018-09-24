@@ -5,13 +5,18 @@
 }
 
 #gallery-jumbotron {
-	background-color: #141414; /*off black*/
+	background-image: url("../../../../assets/img/backgrounds/bg-retro.jpg");
+	background-color: #141414; 
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover;
 	height: 90vh;
 	border-radius: 0; /*to remove the round corners*/
 }
 
 #gallery-landing {
 	color: #f2f2f2; /*off white*/
+	text-shadow: 5px 5px 20px black; 
 	font-size: 10vw;
 	padding-top: 20vh;
 	letter-spacing: 10px;
@@ -19,7 +24,11 @@
 
 
 #bg-body {
-	background-color: #344454; /*grayblue*/ 
+	background-image: url("../../../../assets/img/backgrounds/bg-black.jpg");
+	background-color: #344454; 
+	background-position: center; 
+	background-repeat: repeat-y; 
+	/*background-size: cover;*/
 	color: white; 
 	height: 100%;
 	width:100%;

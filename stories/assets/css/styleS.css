@@ -2,16 +2,22 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
 }
 
 #stories-jumbotron {
-	background-color: #141414; /*off black*/
+	background-image: url("../../../assets/img/backgrounds/bg-qwerty.jpg");
+	background-color: #141414; 
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover;
 	height: 90vh;
 	border-radius: 0; /*to remove the round corners*/
 }
 
 #stories-landing {
 	color: #f2f2f2; /*off white*/
+	text-shadow: 5px 5px 20px #141414; 
 	font-size: 10vw;
 	padding-top: 20vh;
 	letter-spacing: 10px;
@@ -19,7 +25,11 @@
 
 
 #bg-body {
-	background-color: #344454; /*grayblue*/ 
+	background-image: url("../../../assets/img/backgrounds/bg-black.jpg");
+	background-color: #344454; 
+	background-position: center; 
+	background-repeat: repeat-y; 
+	/*background-size: cover;*/
 	color: white; 
 	min-height: 100%;
 	width:100%;
@@ -72,6 +82,23 @@
 	/*max-height: 280px;*/
 }
 
+.btn-banner {
+	height: 100%;
+	width: 100%;
+}
+
+.btn-read {
+	margin: 0 auto;
+	justify-content: middle;
+}
+
+.banner-div {
+	letter-spacing: 1vw;
+}
+
+.banner-line {
+	background-color: #f2f2f2;
+}
 
 #footer-bar {
 	height: 60px;

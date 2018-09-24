@@ -2,26 +2,37 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+
 }
 
 #home-jumbotron {
-	background-image: url("../assets/img/bg1.jpg");
-	background-color: #141414; /*off black*/
+	/*background-image: url("../../../assets/img/backgrounds/bg-black.jpg");*/
+	background-color: #141414; 
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover;
 	height: 90vh;
 	border-radius: 0; 
 }
 
 #home-landing {
 	color: #f2f2f2; /*off white*/
+	text-shadow: 5px 5px 20px black; 
+
 	font-size: 5vw;
 	padding-top: 20vh;
 	letter-spacing: 10px;
 }
 
 #bg-body {
-	background-image: url("../assets/img/bg1.jpg");
-	background-color: #344454; /*grayblue */
-	color: white; 
+	background-image: url("../../../assets/img/backgrounds/bg-white.jpg");
+	background-color: #141414; 
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover;
+/*	background-color: #344454; grayblue 
+*/	color: white; 
 	height: 100%;
 	width:100%;
 }
