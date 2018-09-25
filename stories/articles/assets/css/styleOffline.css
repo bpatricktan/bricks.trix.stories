@@ -62,7 +62,7 @@ ul > li > div > a {
 	padding-top: 15%;
 	color: #f2f2f2;
 	opacity: 1;
-	font-size: 7vw;
+	font-size: 9vw;
 	text-shadow: 5px 5px 15px black;
 
 }
@@ -79,8 +79,10 @@ ul > li > div > a {
 
 #dropdownMenuLink,
 #offline-start{
-	color: #f2f2f2;
+	font-size: 15px;
+	color: #aa4239;
 	text-shadow: 5px 5px 15px black;
+	letter-spacing: 3px;
 }
 	
 
