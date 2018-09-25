@@ -86,7 +86,7 @@ strong {
 #txtB,
 #txtT,
 #txtS {
-	font-size: 2vw;
+	font-size: 1vw;
 	color: #778193;
 /*	padding-left: 10%;*/
 	letter-spacing: 1vw;
@@ -108,7 +108,7 @@ strong {
 	/*color: white; */
 
 	background-color: #1C1C1C;
-	font-size: 20vw;
+	font-size: 15vw;
 	text-align: center;
 
 	height: 80vh;
