@@ -69,7 +69,7 @@ ul > li > div > a {
 
 #offline-start,
 #chapter {
-	color: #2196F3;
+	color: #f2f2f2;
 	text-decoration: none;
 	/*opacity: 0.5;*/
 	font-size: 
@@ -77,9 +77,12 @@ ul > li > div > a {
 
 }
 
-#offline-start:hover {
-	color: 064579;
+#dropdownMenuLink,
+#offline-start{
+	color: #f2f2f2;
+	text-shadow: 5px 5px 15px black;
 }
+	
 
 #offline-main {
 	min-height: 900px;
@@ -95,6 +98,7 @@ ul > li > div > a {
 	background-size: cover;
 
 }
+
 
 
 

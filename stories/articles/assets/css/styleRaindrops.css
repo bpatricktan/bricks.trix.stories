@@ -90,13 +90,19 @@ div > div > p {
 	color: #2196F3;
 	text-decoration: none;
 	/*opacity: 0.5;*/
-    text-shadow: 5px 5px 15px gray;
+    
 
 }
 
-#raindrops-start:hover {
+#dropdownMenuLink,
+#raindrops-start{
+	color: #CE7E14;
+	text-shadow: 5px 5px 15px #141414;
+}
+
+/*#raindrops-start:hover {
 	color: 064579;
-}
+}*/
 
 #raindrops-main {
 	min-height: 900px;
