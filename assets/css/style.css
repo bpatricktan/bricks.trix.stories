@@ -2,7 +2,10 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Press Start 2P', cursive;
+
+	/*font-family: 'VT323', monospace;*/
+	/*font-family: 'Montserrat', sans-serif;*/
 }
 
 #landingPage {
@@ -98,7 +101,7 @@ strong {
 #btnB,
 #btnT,
 #btnS {
-	font-family: 'Roboto', sans-serif;
+
 	margin: 10vh auto ;
 	padding: 0;
 	color: #E4ECFC; /*white*/

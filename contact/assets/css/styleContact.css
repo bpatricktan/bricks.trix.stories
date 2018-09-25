@@ -2,6 +2,8 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Press Start 2P', cursive;
+	/*font-family: 'VT323', monospace;*/
 }
 
 #contact-jumbotron {
@@ -12,7 +14,7 @@
 
 #contact-landing {
 	color: #f2f2f2; /*off white*/
-	font-size: 10vw;
+	font-size: 5vw;
 	padding-top: 20vh;
 	letter-spacing: 10px;
 }
@@ -41,6 +43,12 @@
 	border: 3px solid #442C64; 
 }
 
+ul > li > a {
+	/*font-family: 'VT323', monospace;*/
+	font-size: 10px ;
+	padding-right: 10px;
+}
+
 #navbar {
 /*	background-color: #AB2B35*/
 	background-color: #442C64; /*purple*/
@@ -48,7 +56,7 @@
 
 .navbar-brand {
 	height:50px; 
-	width:50px;
+	width:80px;
 	border: 3px solid white;
 	border-radius: 10px;
 	text-align: center;
@@ -83,6 +91,7 @@
 	margin-bottom: 0;
 	padding-bottom: 0;
 	background-color: #442C64; /*purple*/
+	font-size: 10px;
 }
 
 .footer {

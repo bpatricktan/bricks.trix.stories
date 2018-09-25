@@ -2,6 +2,8 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+		font-family: 'Press Start 2P', cursive;
+
 }
 
 #gallery-jumbotron {
@@ -34,7 +36,12 @@
 	width:100%;
 }
 
-
+/*div > div > div > div > div > h5{
+	font-size: 25px;
+} 
+div > div > div > div > div > p {
+	font-size: 10px;
+}*/
 
 
 
@@ -56,11 +63,18 @@
 
 .navbar-brand {
 	height:50px; 
-	width:50px;
+	width:80px;
 	border: 3px solid white;
 	border-radius: 10px;
 	text-align: center;
 }
+
+ul > li > a {
+/*	font-family: 'VT323', monospace;*/
+	font-size: 10px ;
+	padding-right: 10px;
+}
+
 
 #banner {
 	height: 100px;
@@ -92,7 +106,13 @@
 	width: 100%;
 }
 
+.card-title {
+	font-size: 50px;
+}
 
+.card-text {
+	font-size: 10px;
+}
 
 
 
@@ -120,6 +140,7 @@
 	margin-bottom: 0;
 	padding-bottom: 0;
 	background-color:#5C0404 ; /*red*/
+	font-size: 10px;
 }
 
 .footer {

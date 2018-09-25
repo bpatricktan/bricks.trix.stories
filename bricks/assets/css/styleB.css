@@ -2,7 +2,8 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Press Start 2P', cursive;
+	/*font-family: 'VT323', monospace;*/
 }
 
 #bg-body {
@@ -25,8 +26,8 @@
 
 #bricks-landing {
 	color: #f2f2f2; /*off white*/
-	text-shadow: 5px 5px 20px gray; 
-
+	text-shadow: 5px 5px 20px black; 
+/*	font-family: 'VT323', monospace;*/
 	font-size: 10vw;
 	padding-top: 20vh;
 	letter-spacing: 10px;
@@ -44,6 +45,10 @@
 	width: 100%;
 }
 
+/*#brand {
+	font-family: 'VT323', monospace;
+}*/
+
 #brand:hover,
 #brand:active {
 	background-color: #F1FAEE;
@@ -51,14 +56,22 @@
 	border: 3px solid #5C0404; 
 }
 
+
+
+ul > li > a {
+	/*font-family: 'VT323', monospace;*/
+	font-size: 10px ;
+	padding-right: 10px;
+}
+
 #navbar {
-/*	background-color: #AB2B35*/
+	/*	background-color: #AB2B35*/
 	background-color: #5C0404 ; /*red*/
 }
 
 .navbar-brand {
 	height:50px; 
-	width:50px;
+	width:80px;
 	border: 3px solid white;
 	border-radius: 10px;
 	text-align: center;
@@ -80,7 +93,22 @@
 	width: 100%;
 }
 
+/*div > h4 > strong {
+	font-size: 25px;
+}*/
 
+/*div > p > strong,
+div > p {
+	font-size: 20px
+}*/
+
+.item-name {
+	font-size: 15px;
+}
+
+.item-stats {
+	font-size: 10px;
+}
 
 
 
@@ -92,6 +120,7 @@
 	margin-bottom: 0;
 	padding-bottom: 0;
 	background-color:#5C0404 ; /*red*/
+	font-size: 10px;
 }
 
 .footer {

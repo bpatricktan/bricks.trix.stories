@@ -2,7 +2,8 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Press Start 2P', cursive;
+	/*font-family: 'VT323', monospace;*/
 
 }
 
@@ -19,10 +20,12 @@
 #home-landing {
 	color: #f2f2f2; /*off white*/
 	text-shadow: 5px 5px 20px black; 
-
-	font-size: 5vw;
 	padding-top: 20vh;
 	letter-spacing: 10px;
+}
+
+#flash-p {
+	color: cyan;
 }
 
 #bg-body {
@@ -35,6 +38,14 @@
 */	color: white; 
 	height: 100%;
 	width:100%;
+}
+
+div > section > h1 {
+	font-size: 3vw;
+}
+
+div > section > h2 {
+	font-size: 10px;
 }
 
 .container-fluid {
@@ -55,6 +66,12 @@
 	/*box-shadow: 3px 3px 25px #000;*/
 }
 
+ul > li > a {
+	/*font-family: 'VT323', monospace;*/
+	font-size: 10px ;
+	padding-right: 10px;
+}
+
 #navbar {
 
 	background-color: #344454 ; 
@@ -63,7 +80,7 @@
 
 .navbar-brand {
 	height:50px; 
-	width:50px;
+	width:80px;
 	border: 3px solid white;
 	border-radius: 10px;
 	text-align: center;
@@ -125,7 +142,8 @@
 #btnB,
 #btnT,
 #btnS {
-	font-family: 'Roboto', sans-serif;
+	/*font-family: 'Roboto', sans-serif;*/
+	font-family: 'VT323', monospace;
 	margin: 2px auto 0;
 	padding: 0;
 	color: #E4ECFC; /*white*/
@@ -143,7 +161,8 @@
 
 
 .btn-dscr {
-	font-family: 'Roboto', sans-serif;
+	/*font-family: 'Roboto', sans-serif;*/
+	font-family: 'VT323', monospace;
 	margin: 2px auto 0;
 	padding: 2vw;
 	color: #E4ECFC; /*white*/
@@ -177,6 +196,7 @@
 	margin-bottom: 0;
 	padding-bottom: 0;
 	background-color:#344454;
+	font-size: 10px;
 }
 
 .footer {
@@ -196,6 +216,12 @@
   -webkit-animation-iteration-count: 1;
 }
 
+
+
+#flash-p {
+	-webkit-animation-duration: 3s;
+	-webkit-animation-iteration-count: infinite;
+}
 
 
 
